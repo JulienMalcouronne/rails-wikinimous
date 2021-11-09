@@ -1,0 +1,9 @@
+<div class="banner">
+
+<h1>Wikinimous</h1>
+  <%= link_to "add a new article", article_path("new")%>
+</div>
+
+<h1>Add an article</h1>
+
+<%= render "form", article: @article %>
